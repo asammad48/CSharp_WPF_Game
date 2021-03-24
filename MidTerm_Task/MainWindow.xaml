@@ -1,0 +1,20 @@
+﻿<Window x:Class="MidTerm_Task.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MidTerm_Task"
+        mc:Ignorable="d"
+         Title="MidTerm_Task" Height="521.6" Width="800">
+
+    <Grid Margin="0,0,0,0">
+        <Canvas Name="MyCanvas"  Width="800" Height="450" Background="Black" MouseDown="MyCanvas_MouseDown" Margin="0,0,-6,100.6"   />
+        <Button Content="Play" HorizontalAlignment="Left" Height="32" Margin="10,450,0,0" VerticalAlignment="Top" Width="110" RenderTransformOrigin="-1.581,0.125" Click="Play_Click"/>
+        <Button x:Name="circle" Content="Circles" HorizontalAlignment="Left" Height="32" Margin="150,450,0,0" VerticalAlignment="Top" Width="110" RenderTransformOrigin="-1.581,0.125" Click="circle_Click"/>
+        <Button x:Name="square" Content="Squares" HorizontalAlignment="Left" Height="32" Margin="290,450,0,0" VerticalAlignment="Top" Width="110" RenderTransformOrigin="-1.581,0.125" Click="square_Click"/>
+        <Button x:Name="red" Content="Red" HorizontalAlignment="Left" Height="32" Margin="430,450,0,0" VerticalAlignment="Top" Width="110" RenderTransformOrigin="-1.581,0.125" Click="red_Click"/>
+        <Button x:Name="green" Content="Green" HorizontalAlignment="Left" Height="32" Margin="570,450,0,0" VerticalAlignment="Top" Width="80" RenderTransformOrigin="-1.581,0.125" Click="green_Click"/>
+        <Button x:Name="blue" Content="Blue" HorizontalAlignment="Left" Height="32" Margin="670,450,0,0" VerticalAlignment="Top" Width="110" RenderTransformOrigin="-1.581,0.125" Click="blue_Click"/>
+
+    </Grid>
+</Window>
